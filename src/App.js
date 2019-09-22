@@ -1,14 +1,17 @@
 import React,{Component} from "react";
+import Navbar from './components/layouts/Navbars';
 
 import "./App.css";
 
 class App extends Component{
   render(){
-    return (<React.Fragment>
+   return (
+   <div>
     <h1>Hello from react</h1>
-
-    </React.Fragment>
+      <Navbar/>
+    </div>
     );
+
   }
 }
 
